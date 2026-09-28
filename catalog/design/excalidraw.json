@@ -1,0 +1,8 @@
+{
+  "id": "excalidraw",
+  "name": "Excalidraw",
+  "iconUrl": "assets/excalidraw.png",
+  "type": "url",
+  "url": "https://excalidraw.com",
+  "description": "Sketch diagrams and whiteboards in a shared canvas."
+}

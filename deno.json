@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "check": "deno run --allow-read scripts/check-catalog.js"
+  },
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": true
+  }
+}

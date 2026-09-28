@@ -1,0 +1,11 @@
+{
+  "id": "darc-dev",
+  "name": "darc-dev",
+  "iconUrl": "assets/darc-dev.png",
+  "type": "docker",
+  "githubUrl": "https://github.com/Agent54/xe-darc",
+  "branch": "main",
+  "pathType": "compose",
+  "path": "docker-compose.yaml",
+  "description": "Develop Darc inside a self-hosted Darc workspace."
+}

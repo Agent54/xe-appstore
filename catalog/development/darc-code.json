@@ -1,0 +1,11 @@
+{
+  "id": "darc-code",
+  "name": "Darc Code",
+  "iconUrl": "assets/darc-code.png",
+  "type": "docker",
+  "githubUrl": "https://github.com/Agent54/darc-code",
+  "branch": "int",
+  "pathType": "compose",
+  "path": "docker-compose.yaml",
+  "description": "A VS Code fork packaged as a Docker workspace."
+}
