@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Xe Appstore service",
+  "description": "A service file in catalog/<category>/<id>.json",
+  "oneOf": [
+    {
+      "title": "Web application",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "name": { "type": "string", "pattern": "\\S" },
+        "description": { "type": "string", "pattern": "\\S" },
+        "iconUrl": {
+          "type": "string",
+          "pattern": "^(?:assets/(?:[A-Za-z0-9_-]+/)*[A-Za-z0-9_-]+\\.[A-Za-z0-9]+|https?://[^\\s/@:?#]+(?::[0-9]{1,5})?(?:[/?#][^\\s]*)?)$"
+        },
+        "type": { "const": "url" },
+        "url": {
+          "type": "string",
+          "pattern": "^https?://[^\\s/@:?#]+(?::[0-9]{1,5})?(?:[/?#][^\\s]*)?$"
+        }
+      },
+      "required": ["id", "name", "description", "iconUrl", "type", "url"]
+    },
+    {
+      "title": "Repository application",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "name": { "type": "string", "pattern": "\\S" },
+        "description": { "type": "string", "pattern": "\\S" },
+        "iconUrl": {
+          "type": "string",
+          "pattern": "^(?:assets/(?:[A-Za-z0-9_-]+/)*[A-Za-z0-9_-]+\\.[A-Za-z0-9]+|https?://[^\\s/@:?#]+(?::[0-9]{1,5})?(?:[/?#][^\\s]*)?)$"
+        },
+        "type": { "const": "docker" },
+        "githubUrl": {
+          "type": "string",
+          "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+/?$"
+        },
+        "branch": { "type": "string", "pattern": "\\S" },
+        "pathType": { "enum": ["compose", "dockerfile", "static"] },
+        "path": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$"
+        },
+        "checkoutPath": { "type": "string", "pattern": "\\S" }
+      },
+      "required": [
+        "id",
+        "name",
+        "description",
+        "iconUrl",
+        "type",
+        "githubUrl",
+        "branch",
+        "pathType",
+        "path"
+      ]
+    }
+  ]
+}

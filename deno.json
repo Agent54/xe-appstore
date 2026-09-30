@@ -1,6 +1,9 @@
 {
+  "imports": {
+    "@ark/json-schema": "npm:@ark/json-schema@0.0.9"
+  },
   "tasks": {
-    "check": "deno run --allow-read scripts/check-catalog.js"
+    "check": "deno test --allow-read scripts/catalog-schema.test.js && deno run --allow-read scripts/check-catalog.js"
   },
   "fmt": {
     "semiColons": false,

@@ -1,0 +1,45 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:@ark/json-schema@*": "0.0.9",
+    "npm:@ark/json-schema@0.0.9": "0.0.9"
+  },
+  "npm": {
+    "@ark/json-schema@0.0.9": {
+      "integrity": "sha512-vSNfH3jsBzymE+j67H6DS2uLGTrvCzLjbAXYk8WZTNLzF9NhwyGcVwfh+97ZG4kVvGNcSA0Fe4bX2o+DSoWzuw==",
+      "dependencies": [
+        "@ark/schema",
+        "@ark/util",
+        "arktype"
+      ]
+    },
+    "@ark/schema@0.56.4": {
+      "integrity": "sha512-nd4OqaWdKZJeGF5zNmZysDQO7NyyJ1ycl4S7i16Hj1VxqL+x72Z66lOn7ErpsoMUZtCtslAMHMjqJhuQSxciyw==",
+      "dependencies": [
+        "@ark/util"
+      ]
+    },
+    "@ark/util@0.56.4": {
+      "integrity": "sha512-KKqwGSia44cvuuDY70jGfbiUdG2E8F2cM4npdqvJ22S5a0LknlwG6nIrfQG1nF8fzxpzP30098wp0a8ASs0prQ=="
+    },
+    "arkregex@0.0.10": {
+      "integrity": "sha512-+iDWBYBjH8w7wqEv8VY4loBwRldFxX84KNwKbobH3FJPay/18XI9sTesmXYpKyIrgbC5z/s16+vSJYHCC9FEvQ==",
+      "dependencies": [
+        "@ark/util"
+      ]
+    },
+    "arktype@2.2.5": {
+      "integrity": "sha512-c9oqY1eBab2LceqvpWX50xae2HB8P/nJPxRhuhPVf5lEDi3WQpf7WQflJFMsyCiA3NGh6zENOlse30gWBzlwDg==",
+      "dependencies": [
+        "@ark/schema",
+        "@ark/util",
+        "arkregex"
+      ]
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:@ark/json-schema@0.0.9"
+    ]
+  }
+}
