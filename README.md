@@ -12,6 +12,8 @@ The repository check and Darc compile it with ArkType's JSON Schema adapter.
 
 ```text
 catalog/
+  demo/
+    welcome-to-docker.json
   design/
     excalidraw.json
   development/
@@ -45,6 +47,11 @@ A Docker service uses `type: "docker"` and requires `githubUrl`, `branch`,
 `pathType` (`compose`, `dockerfile`, or `static`), and `path` (relative to that
 repository). An optional `checkoutPath` can prefill the checkout destination in
 Darc. See [darc-code.json](catalog/development/darc-code.json) for an example.
+
+The `demo` category includes Docker's official
+[Welcome to Docker](https://github.com/docker/welcome-to-docker) example. It uses
+the upstream `small-image` branch, which builds the static site and serves it
+with `nginx:alpine-slim` on port 80, without a database or host mounts.
 
 Icons can be an HTTP(S) URL or an `assets/...` path in this repository. Keep
 repository assets under `assets/` and use an image file extension.

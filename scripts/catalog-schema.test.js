@@ -12,6 +12,7 @@ const readService = async (path) =>
 Deno.test('the published services satisfy the JSON Schema through ArkType', async () => {
   for (
     const path of [
+      'catalog/demo/welcome-to-docker.json',
       'catalog/design/excalidraw.json',
       'catalog/development/darc-code.json',
       'catalog/development/darc-dev.json',
