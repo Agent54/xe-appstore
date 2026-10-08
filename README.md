@@ -20,6 +20,7 @@ catalog/
     darc-code.json
     darc-dev.json
 assets/
+  welcome-to-docker.png
   excalidraw.png
   darc-code.png
   darc-dev.png

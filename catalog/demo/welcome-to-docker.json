@@ -1,7 +1,7 @@
 {
   "id": "welcome-to-docker",
   "name": "Welcome to Docker",
-  "iconUrl": "https://github.com/docker.png",
+  "iconUrl": "assets/welcome-to-docker.png",
   "type": "docker",
   "githubUrl": "https://github.com/docker/welcome-to-docker",
   "branch": "small-image",
