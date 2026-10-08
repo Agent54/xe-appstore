@@ -1,1 +1,4 @@
 .DS_Store
+
+# Independent demo repositories used while maintaining the catalog.
+/demo-projects/

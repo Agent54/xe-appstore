@@ -49,10 +49,13 @@ A Docker service uses `type: "docker"` and requires `githubUrl`, `branch`,
 repository). An optional `checkoutPath` can prefill the checkout destination in
 Darc. See [darc-code.json](catalog/development/darc-code.json) for an example.
 
-The `demo` category includes Docker's official
-[Welcome to Docker](https://github.com/docker/welcome-to-docker) example. It uses
-the upstream `small-image` branch, which builds the static site and serves it
-with `nginx:alpine-slim` on port 80, without a database or host mounts.
+The `demo` category includes
+[Welcome to Docker](https://github.com/Agent54/welcome-to-docker-compose), an
+Agent54 copy of Docker's official static welcome page with its own
+`compose.yaml`. The `main` branch builds the site and serves it with
+`nginx:alpine-slim` as a non-root user on port 8080. The container has a read-only
+filesystem, resource limits, and no database or host bind mounts. This catalog
+entry launches the checked-in Compose file directly.
 
 Icons can be an HTTP(S) URL or an `assets/...` path in this repository. Keep
 repository assets under `assets/` and use an image file extension.

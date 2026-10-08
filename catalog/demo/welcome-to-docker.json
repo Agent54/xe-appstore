@@ -3,9 +3,9 @@
   "name": "Welcome to Docker",
   "iconUrl": "assets/welcome-to-docker.png",
   "type": "docker",
-  "githubUrl": "https://github.com/docker/welcome-to-docker",
-  "branch": "small-image",
-  "pathType": "dockerfile",
-  "path": "Dockerfile",
-  "description": "Docker's lightweight static welcome page, served by Nginx Alpine without a database or host mounts."
+  "githubUrl": "https://github.com/Agent54/welcome-to-docker-compose",
+  "branch": "main",
+  "pathType": "compose",
+  "path": "compose.yaml",
+  "description": "Docker's static welcome page in a small, non-root Nginx container with a read-only filesystem."
 }
