@@ -1,0 +1,11 @@
+{
+  "id": "aionui",
+  "name": "AionUI",
+  "description": "Agent WebUI backed by AionCore.",
+  "iconUrl": "https://github.com/iOfficeAI.png",
+  "type": "docker",
+  "githubUrl": "https://github.com/Agent54/xe-harnesses",
+  "branch": "main",
+  "pathType": "compose",
+  "path": "aionui/compose.yaml"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "pi",
+  "name": "Pi",
+  "description": "The Pi terminal coding agent.",
+  "iconUrl": "https://github.com/earendil-works.png",
+  "type": "docker",
+  "githubUrl": "https://github.com/Agent54/xe-harnesses",
+  "branch": "main",
+  "pathType": "compose",
+  "path": "pi/compose.yaml"
+}

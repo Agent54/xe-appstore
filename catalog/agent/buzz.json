@@ -1,0 +1,11 @@
+{
+  "id": "buzz",
+  "name": "Buzz",
+  "description": "Agent messaging with a web client and relay.",
+  "iconUrl": "https://github.com/block.png",
+  "type": "docker",
+  "githubUrl": "https://github.com/Agent54/xe-harnesses",
+  "branch": "main",
+  "pathType": "compose",
+  "path": "buzz/compose.yaml"
+}

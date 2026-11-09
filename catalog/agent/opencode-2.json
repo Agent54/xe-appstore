@@ -1,0 +1,11 @@
+{
+  "id": "opencode-2",
+  "name": "OpenCode",
+  "description": "A browser interface for the OpenCode coding agent.",
+  "iconUrl": "https://github.com/anomalyco.png",
+  "type": "docker",
+  "githubUrl": "https://github.com/Agent54/xe-harnesses",
+  "branch": "main",
+  "pathType": "compose",
+  "path": "opencode-2/compose.yaml"
+}

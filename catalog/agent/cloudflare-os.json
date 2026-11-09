@@ -1,0 +1,11 @@
+{
+  "id": "cloudflare-os",
+  "name": "Cloudflare OS",
+  "description": "An AI workspace running the upstream local development runtime.",
+  "iconUrl": "https://github.com/cloudflare.png",
+  "type": "docker",
+  "githubUrl": "https://github.com/Agent54/xe-harnesses",
+  "branch": "main",
+  "pathType": "compose",
+  "path": "cloudflare-os/compose.yaml"
+}

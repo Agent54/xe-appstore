@@ -1,0 +1,11 @@
+{
+  "id": "get-bb",
+  "name": "bb",
+  "description": "A coding workspace with a browser interface.",
+  "iconUrl": "https://github.com/get-bb.png",
+  "type": "docker",
+  "githubUrl": "https://github.com/Agent54/xe-harnesses",
+  "branch": "main",
+  "pathType": "compose",
+  "path": "get-bb/compose.yaml"
+}

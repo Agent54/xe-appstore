@@ -1,0 +1,11 @@
+{
+  "id": "pi-durable",
+  "name": "Pi Durable",
+  "description": "A durable coding-agent runtime exposed through an HTTP API.",
+  "iconUrl": "https://github.com/earendil-works.png",
+  "type": "docker",
+  "githubUrl": "https://github.com/Agent54/xe-harnesses",
+  "branch": "main",
+  "pathType": "compose",
+  "path": "pi-durable/compose.yaml"
+}

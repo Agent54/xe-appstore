@@ -1,0 +1,11 @@
+{
+  "id": "openchamber",
+  "name": "OpenChamber",
+  "description": "A browser workspace for coding agents.",
+  "iconUrl": "https://github.com/openchamber.png",
+  "type": "docker",
+  "githubUrl": "https://github.com/Agent54/xe-harnesses",
+  "branch": "main",
+  "pathType": "compose",
+  "path": "openchamber/compose.yaml"
+}

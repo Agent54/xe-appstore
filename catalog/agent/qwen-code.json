@@ -1,0 +1,11 @@
+{
+  "id": "qwen-code",
+  "name": "Qwen Code",
+  "description": "Qwen's coding agent with a browser shell.",
+  "iconUrl": "https://github.com/QwenLM.png",
+  "type": "docker",
+  "githubUrl": "https://github.com/Agent54/xe-harnesses",
+  "branch": "main",
+  "pathType": "compose",
+  "path": "qwen-code/compose.yaml"
+}

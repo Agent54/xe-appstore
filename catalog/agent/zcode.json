@@ -1,0 +1,11 @@
+{
+  "id": "zcode",
+  "name": "ZCode",
+  "description": "A web coding workspace with an integrated agent.",
+  "iconUrl": "https://github.com/zai-org.png",
+  "type": "docker",
+  "githubUrl": "https://github.com/Agent54/xe-harnesses",
+  "branch": "main",
+  "pathType": "compose",
+  "path": "zcode/compose.yaml"
+}
