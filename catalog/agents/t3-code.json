@@ -2,7 +2,7 @@
   "id": "t3-code",
   "name": "T3 Code",
   "description": "A web workspace for coding agents, projects, terminals, and reviews.",
-  "iconUrl": "https://github.com/pingdotgg.png",
+  "iconUrl": "assets/agents/t3-code.png",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

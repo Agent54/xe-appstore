@@ -2,7 +2,7 @@
   "id": "trueforge",
   "name": "TrueForge",
   "description": "An agent workspace with model and tool integrations.",
-  "iconUrl": "https://github.com/truefoundry.png",
+  "iconUrl": "assets/agents/trueforge.png",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

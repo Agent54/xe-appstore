@@ -2,7 +2,7 @@
   "id": "goose",
   "name": "Goose",
   "description": "A terminal agent for development tasks.",
-  "iconUrl": "https://github.com/aaif-goose.png",
+  "iconUrl": "assets/agents/goose.png",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

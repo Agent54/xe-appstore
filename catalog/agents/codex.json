@@ -2,7 +2,7 @@
   "id": "codex",
   "name": "Codex",
   "description": "OpenAI's terminal coding agent.",
-  "iconUrl": "https://github.com/openai.png",
+  "iconUrl": "assets/agents/codex.png",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

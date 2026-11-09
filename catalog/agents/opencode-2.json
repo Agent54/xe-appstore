@@ -2,7 +2,7 @@
   "id": "opencode-2",
   "name": "OpenCode",
   "description": "A browser interface for the OpenCode coding agent.",
-  "iconUrl": "https://github.com/anomalyco.png",
+  "iconUrl": "assets/agents/opencode-2.png",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

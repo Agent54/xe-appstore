@@ -2,7 +2,7 @@
   "id": "cloudflare-os",
   "name": "Cloudflare OS",
   "description": "An AI workspace running the upstream local development runtime.",
-  "iconUrl": "https://github.com/cloudflare.png",
+  "iconUrl": "assets/agents/cloudflare-os.jpg",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

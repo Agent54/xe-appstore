@@ -2,7 +2,7 @@
   "id": "deepseek-harness",
   "name": "DeepSeek Harness",
   "description": "A web-based coding agent harness.",
-  "iconUrl": "https://github.com/deepseek-ai.png",
+  "iconUrl": "assets/agents/deepseek-harness.png",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

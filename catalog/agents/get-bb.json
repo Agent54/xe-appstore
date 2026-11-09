@@ -2,7 +2,7 @@
   "id": "get-bb",
   "name": "bb",
   "description": "A coding workspace with a browser interface.",
-  "iconUrl": "https://github.com/get-bb.png",
+  "iconUrl": "assets/agents/get-bb.png",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

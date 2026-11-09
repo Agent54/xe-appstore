@@ -2,7 +2,7 @@
   "id": "openwork",
   "name": "OpenWork",
   "description": "A self-hosted agent workspace with a web interface.",
-  "iconUrl": "https://github.com/different-ai.png",
+  "iconUrl": "assets/agents/openwork.png",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

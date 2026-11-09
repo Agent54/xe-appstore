@@ -2,7 +2,7 @@
   "id": "aionui",
   "name": "AionUI",
   "description": "Agent WebUI backed by AionCore.",
-  "iconUrl": "https://github.com/iOfficeAI.png",
+  "iconUrl": "assets/agents/aionui.png",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

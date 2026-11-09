@@ -2,7 +2,7 @@
   "id": "librechat",
   "name": "LibreChat",
   "description": "A chat interface for multiple model providers.",
-  "iconUrl": "https://github.com/danny-avila.png",
+  "iconUrl": "assets/agents/librechat.jpg",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

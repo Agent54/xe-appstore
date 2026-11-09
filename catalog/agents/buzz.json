@@ -2,7 +2,7 @@
   "id": "buzz",
   "name": "Buzz",
   "description": "Agent messaging with a web client and relay.",
-  "iconUrl": "https://github.com/block.png",
+  "iconUrl": "assets/agents/buzz.jpg",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

@@ -2,7 +2,7 @@
   "id": "pi-durable",
   "name": "Pi Durable",
   "description": "A durable coding-agent runtime exposed through an HTTP API.",
-  "iconUrl": "https://github.com/earendil-works.png",
+  "iconUrl": "assets/agents/pi-durable.png",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

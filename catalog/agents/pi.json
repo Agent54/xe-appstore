@@ -2,7 +2,7 @@
   "id": "pi",
   "name": "Pi",
   "description": "The Pi terminal coding agent.",
-  "iconUrl": "https://github.com/earendil-works.png",
+  "iconUrl": "assets/agents/pi.png",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

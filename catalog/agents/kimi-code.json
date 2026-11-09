@@ -2,7 +2,7 @@
   "id": "kimi-code",
   "name": "Kimi Code",
   "description": "Kimi's TypeScript terminal coding agent.",
-  "iconUrl": "https://github.com/MoonshotAI.png",
+  "iconUrl": "assets/agents/kimi-code.jpg",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",

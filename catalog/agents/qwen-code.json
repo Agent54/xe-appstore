@@ -2,7 +2,7 @@
   "id": "qwen-code",
   "name": "Qwen Code",
   "description": "Qwen's coding agent with a browser shell.",
-  "iconUrl": "https://github.com/QwenLM.png",
+  "iconUrl": "assets/agents/qwen-code.png",
   "type": "docker",
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",
