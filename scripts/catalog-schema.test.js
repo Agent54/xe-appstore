@@ -38,8 +38,23 @@ Deno.test('the schema rejects malformed web and repository entries', async () =>
       { ...repo, branch: 5 },
       { ...repo, path: '../docker-compose.yaml' },
       { ...repo, pathType: 'unknown' },
+      { ...repo, sparsePaths: 'codex' },
+      { ...repo, sparsePaths: ['../codex'] },
+      { ...repo, sparsePaths: ['/codex'] },
+      { ...repo, sparsePaths: ['codex/../shared'] },
+      { ...repo, sparsePaths: ['.git'] },
     ]
   ) {
     assert.throws(() => serviceType.assert(invalid))
   }
+})
+
+Deno.test('agent apps share a repository while selecting their own sparse folders', async () => {
+  const codex = await readService('catalog/agents/codex.json')
+  const pi = await readService('catalog/agents/pi.json')
+  assert.equal(serviceType.assert(codex).githubUrl, serviceType.assert(pi).githubUrl)
+  assert.deepEqual(codex.sparsePaths, ['codex'])
+  assert.deepEqual(pi.sparsePaths, ['pi'])
+  assert.equal(codex.path, 'codex/compose.yaml')
+  assert.equal(pi.path, 'pi/compose.yaml')
 })

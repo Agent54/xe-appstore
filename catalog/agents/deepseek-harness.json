@@ -7,5 +7,6 @@
   "githubUrl": "https://github.com/Agent54/xe-harnesses",
   "branch": "main",
   "pathType": "compose",
-  "path": "deepseek-harness/compose.yaml"
+  "path": "deepseek-harness/compose.yaml",
+  "sparsePaths": ["deepseek-harness"]
 }

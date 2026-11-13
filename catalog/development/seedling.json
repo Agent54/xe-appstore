@@ -1,0 +1,12 @@
+{
+  "id": "seedling",
+  "name": "Seedling",
+  "description": "Browse and manage Jujutsu repositories with the standalone JJ View web app.",
+  "iconUrl": "assets/seedling.png",
+  "type": "docker",
+  "githubUrl": "https://github.com/Agent54/jj-view",
+  "branch": "dev",
+  "pathType": "compose",
+  "path": "docker-compose.yaml",
+  "checkoutPath": "seedling"
+}

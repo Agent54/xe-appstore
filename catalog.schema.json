@@ -46,7 +46,14 @@
           "type": "string",
           "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$"
         },
-        "checkoutPath": { "type": "string", "pattern": "\\S" }
+        "checkoutPath": { "type": "string", "pattern": "\\S" },
+        "sparsePaths": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(?!.*(?:^|/)(?:[.]|[.][.]|[.]git|git~1)(?:/|$))(?:[A-Za-z0-9_-][A-Za-z0-9_.-]*[A-Za-z0-9_-]|[A-Za-z0-9_-])(?:/(?:[A-Za-z0-9_-][A-Za-z0-9_.-]*[A-Za-z0-9_-]|[A-Za-z0-9_-]))*$"
+          }
+        }
       },
       "required": [
         "id",

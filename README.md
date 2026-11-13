@@ -49,6 +49,16 @@ A Docker service uses `type: "docker"` and requires `githubUrl`, `branch`,
 repository). An optional `checkoutPath` can prefill the checkout destination in
 Darc. See [darc-code.json](catalog/development/darc-code.json) for an example.
 
+For monorepos, set `sparsePaths` to the repository-relative folders needed by
+the app, for example `"sparsePaths": ["codex", "shared"]`. Keep `path` relative
+to the repository root, for example `"path": "codex/compose.yaml"`. Omit
+`sparsePaths` (or use an empty array) to check out the whole repository.
+Apps with the same repository URL and `checkoutPath` reuse one checkout;
+installing another app adds its folders without removing existing folders or
+switching branches. Reuse requires the same branch. Include shared build
+dependencies in each app's list. Catalog category folders are independent of
+checkout destinations.
+
 The `demo` category includes
 [Welcome to Docker](https://github.com/Agent54/welcome-to-docker-compose), an
 Agent54 copy of Docker's official static welcome page with its own
